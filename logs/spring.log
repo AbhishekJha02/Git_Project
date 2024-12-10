@@ -1,0 +1,38 @@
+2024-12-09T12:28:16.908+05:30  INFO 14540 --- [FirstApplication] [main] c.i.firstapplication.FirstApplication    : Starting FirstApplication using Java 23 with PID 14540 (C:\Users\abhishek.jha\Desktop\Spring_LAB\FirstApplication\target\classes started by abhishek.jha in C:\Users\abhishek.jha\Desktop\Spring_LAB\FirstApplication)
+2024-12-09T12:28:16.911+05:30  INFO 14540 --- [FirstApplication] [main] c.i.firstapplication.FirstApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T12:28:18.115+05:30  INFO 14540 --- [FirstApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T12:28:18.197+05:30  INFO 14540 --- [FirstApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2024-12-09T12:28:19.063+05:30  INFO 14540 --- [FirstApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T12:28:19.096+05:30  INFO 14540 --- [FirstApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T12:28:19.096+05:30  INFO 14540 --- [FirstApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-09T12:28:19.301+05:30  INFO 14540 --- [FirstApplication] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-12-09T12:28:19.311+05:30  INFO 14540 --- [FirstApplication] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T12:28:19.311+05:30  INFO 14540 --- [FirstApplication] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2327 ms
+2024-12-09T12:28:19.541+05:30  INFO 14540 --- [FirstApplication] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T12:28:19.646+05:30  INFO 14540 --- [FirstApplication] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-09T12:28:19.705+05:30  INFO 14540 --- [FirstApplication] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T12:28:20.283+05:30  INFO 14540 --- [FirstApplication] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T12:28:20.340+05:30  INFO 14540 --- [FirstApplication] [main] com.zaxxer.hikari.HikariDataSource       : test - Starting...
+2024-12-09T12:28:20.944+05:30  INFO 14540 --- [FirstApplication] [main] com.zaxxer.hikari.pool.HikariPool        : test - Added connection com.mysql.cj.jdbc.ConnectionImpl@24615687
+2024-12-09T12:28:20.948+05:30  INFO 14540 --- [FirstApplication] [main] com.zaxxer.hikari.HikariDataSource       : test - Start completed.
+2024-12-09T12:28:21.019+05:30  WARN 14540 --- [FirstApplication] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-09T12:28:21.020+05:30  WARN 14540 --- [FirstApplication] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-09T12:28:22.508+05:30  INFO 14540 --- [FirstApplication] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T12:28:22.657+05:30  INFO 14540 --- [FirstApplication] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T12:28:23.046+05:30  INFO 14540 --- [FirstApplication] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T12:28:23.807+05:30  WARN 14540 --- [FirstApplication] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T12:28:24.349+05:30  INFO 14540 --- [FirstApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T12:28:24.373+05:30  INFO 14540 --- [FirstApplication] [main] c.i.firstapplication.FirstApplication    : Started FirstApplication in 8.134 seconds (process running for 9.11)
+2024-12-09T12:28:35.279+05:30  INFO 14540 --- [FirstApplication] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-09T12:28:35.280+05:30  INFO 14540 --- [FirstApplication] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-09T12:28:35.283+05:30  INFO 14540 --- [FirstApplication] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-12-09T12:28:35.819+05:30  INFO 14540 --- [FirstApplication] [http-nio-8080-exec-2] c.i.f.service.StudentService             : Student is added in the DB
+2024-12-09T12:28:35.820+05:30  WARN 14540 --- [FirstApplication] [http-nio-8080-exec-2] c.i.f.service.StudentService             : Student is added in the DB
+2024-12-09T12:28:35.820+05:30 ERROR 14540 --- [FirstApplication] [http-nio-8080-exec-2] c.i.f.service.StudentService             : Student is added in the DB
+2024-12-09T12:28:35.820+05:30 DEBUG 14540 --- [FirstApplication] [http-nio-8080-exec-2] c.i.f.service.StudentService             : Student is added in the DB
+2024-12-09T12:28:35.820+05:30 TRACE 14540 --- [FirstApplication] [http-nio-8080-exec-2] c.i.f.service.StudentService             : Student is added in the DB
+2024-12-09T13:05:56.545+05:30  WARN 14540 --- [FirstApplication] [test housekeeper] com.zaxxer.hikari.pool.HikariPool        : test - Thread starvation or clock leap detected (housekeeper delta=1m35s25ms742µs200ns).
+2024-12-09T14:38:50.778+05:30  INFO 14540 --- [FirstApplication] [RMI TCP Connection(133)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-12-09T14:38:50.966+05:30  INFO 14540 --- [FirstApplication] [RMI TCP Connection(133)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T14:38:51.039+05:30  INFO 14540 --- [FirstApplication] [RMI TCP Connection(133)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : test - Shutdown initiated...
+2024-12-09T14:38:51.059+05:30  INFO 14540 --- [FirstApplication] [RMI TCP Connection(133)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : test - Shutdown completed.
